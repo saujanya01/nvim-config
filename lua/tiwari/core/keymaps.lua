@@ -31,3 +31,5 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 keymap.set("n", "<leader>fj", ":%!jq .<CR>", { desc = "Format JSON" }) --  move current buffer to new tab, this requires jq installed, see brew install jq
+keymap.set("n", "<leader>ya", ":%y+<CR>", { desc = "Yank all" }) --  move current buffer to new tab, this requires jq installed, see brew install jq
+keymap.set("n", "<leader>ti", ":Telescope import<CR>", { desc = "Yank all" }) --  move current buffer to new tab, this requires jq installed, see brew install jq
